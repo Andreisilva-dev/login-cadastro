@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #3a68b7;
+   
+}
+
+form {
+    margin: auto;
+    max-width: 600px;
+    
+    box-shadow: -10px 0px  #224072;
+    background-color: white;
+}
+
+fieldset {
+    margin-top: 200px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 20px;
+    border: none;
+}
+
+legend {
+    font-size: 28px;
+    padding-top: 18px;
+    text-transform: uppercase;
+    color: #3a68b7;
+}
+
+form label {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+form input {
+    padding: 5px;
+    padding-left: 4px;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #3a68b7;
+}
+
+form input:focus {
+    outline: 2px solid #538cee;
+}
+.cadastrese {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cadastrese input {
+    border: none;
+    background-color: #3a68b7;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cadastrese input:hover {
+    background-color: #538cee;
+}
+
+
+
+.cadastrese p {
+    display: flex;
+    gap: 7px;
+}
+.cadastrese span {
+    color: gray;
+}
+
+.cadastrese a {
+    text-decoration: none;
+}
